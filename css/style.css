@@ -12,12 +12,12 @@ body{
     font-family: 'Lato', sans-serif;
 }
 header{
-    height: 30px;
+    height: 50px;
     /* background-color: olive; */
 }
 
 main{
-    height: calc(100% - 110px);
+    height: calc(100% - 130px);
     /* background-color: darkorange; */
     width: 90%;
     margin: auto;
@@ -55,8 +55,8 @@ button{
 }
 .foto{
     
-    width:calc(100% / 7 - 20px);
-    margin: 10px;
+    max-width:calc(100% / 7 - 6px);
+    margin:  15px 3px;
     
 }
 .element{
@@ -77,3 +77,45 @@ button{
     
     
 /* FOOTER */
+
+.left-button , .end-call{
+    width: 20%;
+}
+.center-button{
+    width: 60%;
+    text-align: center;
+}
+
+.icon-list li{
+    margin: 0 0 0 15px;
+    color: white;
+    text-align: center;
+    
+}
+.arrow{
+    line-height: 51px;
+    margin-left: 20px;
+}
+.row .icon-list{
+    justify-content: center;
+    align-items: center;
+}
+.green-btn i{
+    color: green;
+}
+.end-btn{
+    height:80px;
+    width: 35%;
+    background-color: #4a4a4a;
+    color: red;
+    text-align: center;
+    line-height: 80px;
+}
+.row .end-call{
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.left-button, .center-button{
+    margin-top: 10px;
+    align-items: baseline;
+}
