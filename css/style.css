@@ -13,14 +13,16 @@ body{
 }
 header{
     height: 30px;
-    background-color: olive;
+    /* background-color: olive; */
 }
 
 main{
     height: calc(100% - 110px);
-    background-color: darkorange;
-    width: 95%;
+    /* background-color: darkorange; */
+    width: 90%;
     margin: auto;
+    overflow-y: auto;
+
 }
 .row{
     display: flex;
@@ -30,11 +32,26 @@ footer{
     height:80px;
     background-color:#222222 ;
 }
+.btn{
+    text-align: right;
+    border: none;
+}
+button{
+    background-color: #4a4a4a;
+    color: white;
+    padding: 5px 3px;
+    border-radius: 8px;
+    margin:5px 2px 0 0 ;
+
+}
+   
+    
 /* HEADER */
+
 /* MAIN */
 .picture{
     flex-wrap: wrap;
-    overflow-y: auto;
+    
 }
 .foto{
     height: 140px;
