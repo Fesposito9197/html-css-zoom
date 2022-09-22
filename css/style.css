@@ -36,17 +36,17 @@ footer{
     text-align: right;
     border: none;
 }
+
+
+/* HEADER */
 button{
     background-color: #4a4a4a;
     color: white;
     padding: 5px 3px;
     border-radius: 8px;
     margin:5px 2px 0 0 ;
-
 }
-   
-    
-/* HEADER */
+
 
 /* MAIN */
 .picture{
@@ -54,12 +54,26 @@ button{
     
 }
 .foto{
-    height: 140px;
+    
     width:calc(100% / 7 - 20px);
     margin: 10px;
-    background-color: firebrick;
-    border: 1px dashed ;
-    
     
 }
+.element{
+    position: relative;
+}
+.element img{
+    width: 100%;
+}
+.element .tags{
+    position: absolute;
+    width: 150px;
+    height:20px ;
+    bottom: 3px;
+    left: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+    
+    
 /* FOOTER */
