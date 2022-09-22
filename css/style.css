@@ -115,7 +115,7 @@ button{
     align-items: flex-end;
     justify-content: flex-end;
 }
-.left-button, .center-button{
+.left-button , .center-button{
     margin-top: 10px;
     align-items: baseline;
 }
