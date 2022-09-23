@@ -63,13 +63,14 @@ button{
     position: relative;
 }
 .element img{
+    display: block;
     width: 100%;
 }
 .element .tags{
     position: absolute;
     width: 150px;
     height:20px ;
-    bottom: 3px;
+    bottom: 0;
     left: 0;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
@@ -117,5 +118,5 @@ button{
 }
 .left-button , .center-button{
     margin-top: 10px;
-    align-items: baseline;
+    
 }
